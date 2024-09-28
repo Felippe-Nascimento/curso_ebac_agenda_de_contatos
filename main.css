@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: rgb(179, 188, 197);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+header img {
+    height: 70px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 50px;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form img {
+    height: 50px;
+    margin-right: 12px;
+}
+
+form input {
+    margin-right: 16px;
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+}
+
+form select {
+    margin-right: 16px;
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+}
+
+form button {
+    font-size: 20px;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+}
+
+table img {
+    height: 40px;
+}
+
+.image_bg{
+    border-radius: 10px;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

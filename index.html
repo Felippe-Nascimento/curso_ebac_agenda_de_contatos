@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/agenda.png" alt="agenda_de_contatos">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="formulario">
+            <img src="./images/contato_pessoa_adicionar.png" alt="contato_pessoa_adicionar">
+            <input type="text" placeholder="Nome do Contato" id="nome-contato" required>
+            <img src="./images/telefone.png" alt="telefone">
+            <input type="tel" placeholder="Telefone" id="numero-contato"  required>
+            <select name="Sexo" id="seleção-sexo" required="required">
+                <option value="">- H/M -</option>
+                <option value="Homem">Homem</option>
+                <option value="Mulher">Mulher</option>
+            </select>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th><img class="image_bg" src="./images/Boy-Or-Girl-900x473.jpg"></th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>  
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
